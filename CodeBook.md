@@ -28,8 +28,8 @@ The output data set has `180` observations and `68` variables. `66` of the varia
 
 | \# | variable  | Sources | Description |
 |:----:|---------|------|-------------|
-| 1 |  activityName | from `y_train.txt`, `y_test.txt` and `activity_labels.txt` | names of activities: WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, and LAYING |
-| 2 |  subjectID | from `subject_train.txt` and `subject_test.txt` |  IDs of subjects who performed the activity: from 1 to 30 |              
+| 1 |  activityName | from `y_train.txt`, `y_test.txt` and `activity_labels.txt` | names of activities: WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, and LAYING (without units)|
+| 2 |  subjectID | from `subject_train.txt` and `subject_test.txt` |  IDs of subjects who performed the activity: from 1 to 30 (without units)|              
 | 3 |  tBodyAcc.mean.X |  from `features.txt` |    *described below*  |      
 | 4 |  tBodyAcc.mean.Y |  from `features.txt` |     *described below* |         
 | 5 |  tBodyAcc.mean.Z |              from `features.txt` | *described below* |  
@@ -102,10 +102,10 @@ The output data set has `180` observations and `68` variables. `66` of the varia
 
 * Prefix `t` is to denote **time domain**
 * Prefix `f` is to denote **frequency domain**
-* `Body` is to denote **body linear acceleration**
-* `Gravity` is to denote **gravity acceleration**
-* `Gyro` is to denote **angular velocity**
-* `Jerk` is to denote  **jerk** 
+* `Body` is to denote **body linear acceleration** (The units are standard gravity units 'g')
+* `Gravity` is to denote **gravity acceleration** (The units are standard gravity units 'g')
+* `Gyro` is to denote **angular velocity**. (The units are rad/s)
+* `Jerk` is to denote **jerk** (The units are m/s^3)
 * `Mag` is to denote the **magnitude** 
 * `mean` is to denote **mean value**
 * `std` is to denote **standard deviation**
