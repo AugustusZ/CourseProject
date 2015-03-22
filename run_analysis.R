@@ -46,7 +46,7 @@ activityLabel <- rbind(y_train, y_test)
 activityLabelNames <- read.table("activity_labels.txt")
 
 # Name the observations with 6 activity names according to the corresponding class labels
-extractedData$activityName <- activityLabelNames$V2[activityLabelNames$V1[activityLabel$V1]]
+extractedData$activityName <- activityLabelNames$V2[activityLabel$V1]
 
 # Remove used data for the sake of memory...
 rm(y_train)
