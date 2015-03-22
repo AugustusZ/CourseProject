@@ -46,7 +46,7 @@ So far, we get the data set named `allData`.
 
 #### 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 
-According to `features_info.txt`, the target columns are those varibles whose names contain `mean()` or `std()`. 
+According to `features_info.txt`, the target columns are those variables whose names contain `mean()` or `std()`. 
 
 Note that some names contain `meanFreq()` (e.g. `fBodyAcc-meanFreq()-X`) or `Mean` (e.g. `angle(tBodyAccJerkMean),gravityMean)`) are not required.
 
