@@ -92,5 +92,5 @@ rm(extractedData)
 rm(finalData)
 
 # To read the outputfile, just use read.table:
-# Course_Project_Output <- read.table("../Course_Project_Output.txt")
+# Course_Project_Output <- read.table("../Course_Project_Output.txt", header=TRUE)
 #----------------------------------------- 5 DONE -----------------------------------------
