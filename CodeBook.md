@@ -102,10 +102,10 @@ The output data set has `180` observations and `68` variables. `66` of the varia
 
 * Prefix `t` is to denote **time domain**
 * Prefix `f` is to denote **frequency domain**
-* `Body` is to denote **body linear acceleration** (The units are standard gravity units 'g')
-* `Gravity` is to denote **gravity acceleration** (The units are standard gravity units 'g')
-* `Gyro` is to denote **angular velocity**. (The units are rad/s)
-* `Jerk` is to denote **jerk** (The units are m/s^3)
+* `Body` is to denote **body linear acceleration** (The units are standard gravity units `g`)
+* `Gravity` is to denote **gravity acceleration** (The units are standard gravity units `g`)
+* `Gyro` is to denote **angular velocity**. (The units are `rad/s`)
+* `Jerk` is to denote **jerk** (The units are `m/s^3`)
 * `Mag` is to denote the **magnitude** 
 * `mean` is to denote **mean value**
 * `std` is to denote **standard deviation**
